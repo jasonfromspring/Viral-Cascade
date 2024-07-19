@@ -90,7 +90,8 @@ for forum_id in forum_ids:
             ax.set_title(f'Forum {forum_id} with alpha {alpha} and multiplier {beta}X')
             ax.legend()
             #plt.show()
-            plt.savefig(f'Alpha{alpha}_Beta{beta}_Forum{forum_id}.png')
+            plt.savefig(f'Forum{forum_id}_Alpha{alpha}Beta{beta}X_.png')
+
 
 cursor.close()
 conn.close()
